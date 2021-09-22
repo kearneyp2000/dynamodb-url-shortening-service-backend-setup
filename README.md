@@ -1,13 +1,17 @@
 # URL Shortening Service
 
-> API to create Dynamodb for backend hosting of urls
+> API to create Dynamodb collection for urls mappings required for url-shortening-service.
 
 # Requirements
-AWS account with admin access, AWS cli and access key to configure.
+AWS account with admin access is required along with the AWS CLI and an access key to configure.
 
-At the aws cli prompt run "aws configure" to setup.
+You can obtain/download your access key under your user from IAM aws service.
 
-create a .env file and add the following"awskey=YOUR_ACCESS_KEY"
+At the aws cli prompt run "aws configure" to setup with your access key.
+
+create a .env also file and add the following "awskey=YOUR_ACCESS_KEY"
+
+.env file is used to check/tie the project to a particular aws account/endpoint.
 
 # Install dependencies
 npm install
