@@ -1,0 +1,5 @@
+npm i aws-sdk dotenv
+
+//to run a file
+node js-filename-to-run.js
+
