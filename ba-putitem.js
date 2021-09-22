@@ -18,7 +18,7 @@ AWS.config.getCredentials(function(err) {
                 var params = {
                     TableName:table,
                     Item:{
-                        "longurl": longurl,
+                        "resource": longurl,
                         "client": client,
                         "shorturl": shorturl
                     }

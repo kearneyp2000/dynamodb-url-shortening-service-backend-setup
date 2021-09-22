@@ -18,11 +18,11 @@ AWS.config.getCredentials(function(err) {
             var params = {
                 TableName : "url-mappings",
                 KeySchema: [
-                    { AttributeName: "longurl", KeyType: "HASH"},  //Partition key
+                    { AttributeName: "resource", KeyType: "HASH"},  //Partition key
                     { AttributeName: "client", KeyType: "RANGE" },  //Sort key
                 ],
                 AttributeDefinitions: [
-                    { AttributeName: "longurl", AttributeType: "S" },
+                    { AttributeName: "resource", AttributeType: "S" },
                     { AttributeName: "client", AttributeType: "S" },
                 ],
                 ProvisionedThroughput: {

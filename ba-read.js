@@ -16,7 +16,7 @@ require("dotenv").config();
             var params = {
             TableName: table,
             Key: {
-                "longurl": longurl,
+                "resource": longurl,
                 "client": client
             }
             };
