@@ -19,9 +19,6 @@ npm install
 # To Create Table
 node ba-createtable.js
 
-# To Create Table
-node ba-createtable.js
-
 # To Delete Table
 node ba-deletetable.js
 
